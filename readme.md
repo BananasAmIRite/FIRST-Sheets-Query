@@ -8,7 +8,7 @@
 ### Param 2 - Labels/properties - properties to display in a row/column
   Available labels: `CountryCode, ProfileYear, ProgramType, ProgramName, ProgramNameFull, City, Country, FullName, Nickname, TeamNumber, PostalCode, RookieYear, StateProvince`
   - ex. `=FRCTEAMINFO(321, FullName)` will display 1 cell of the full name of 321
-  - ex. `=FRCTEAMINFO(321, {FullName, City, Country})` will display 3 cells horizontally, with the properties, team full name, team city, team country respectively
+  - ex. `=FRCTEAMINFO(321, {"FullName", "City", "Country"})` will display 3 cells horizontally, with the properties, team full name, team city, team country respectively
 
 ### Param 3 - Options/flags - Options in the form of flags `--key=value`
   Available flags: 
